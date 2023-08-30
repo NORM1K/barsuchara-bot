@@ -1,7 +1,6 @@
 import telebot
 
-bot = telebot.TeleBot('5738333587:AAEaonLV6VfHmZaAw6_Vt4vpPbouECw2_Rs')
-
+bot = telebot.TeleBot('')
 @bot.message_handler(commands=['start'])
 def start(message):
     bot.send_sticker(message.chat.id, sti)
